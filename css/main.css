@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    line-height: 1.4;
+    color: #c2af75;
+    background: #000;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    margin: 3em .5em;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 .67em 0;
+}
+
+.logo {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.syllable-marker {
+    font-size: 1.5em;
+    line-height: 1;
+    display: inline-block;
+    margin: 0 .01em;
+    position: relative;
+    top: .1em;
+}
+
+.bare-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*
+    links
+*/
+a {
+    color: #65b03c;
+}
+
+/*
+    main nav
+*/
+.main-nav li,
+.main-nav a {
+    display: inline-block;
+}
+
+.main-nav a {
+    padding: .3em;
+}
