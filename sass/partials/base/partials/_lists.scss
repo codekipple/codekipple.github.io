@@ -1,0 +1,30 @@
+/*  ==========================================================================
+    Base:Lists
+    ========================================================================== */
+
+ul,
+ol {
+    margin: 0 0 em($base-spacing-unit--half) 0;
+
+    li {
+        margin-bottom: em(4px);
+    }
+}
+
+ul {
+    padding: 0 0 0 em(15px);
+}
+
+ol {
+    padding: 0 0 0 em(21px);
+}
+
+/*
+    Remove vertical spacing from nested lists.
+*/
+li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
+}

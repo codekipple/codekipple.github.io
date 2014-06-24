@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Generic:Helpers:State
+   ========================================================================== */
+
+/*
+    Completely remove from the flow and screen readers.
+*/
+
+.is-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/*
+    Completely remove from the flow but leave available to screen readers.
+*/
+
+.is-hidden-visually {
+    @include visually-hidden();
+}
+
+/*
+    Control visibility without affecting flow.
+*/
+
+.is-invisible { visibility: hidden !important; }
+
+.is-visible { visibility: visible !important; }

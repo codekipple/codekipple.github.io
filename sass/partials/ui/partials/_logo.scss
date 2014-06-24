@@ -1,0 +1,34 @@
+.logo {
+    max-width: em(480px);
+    margin: 3em auto 1em;
+    color: $color--beige;
+
+    .syllable-marker {
+    }
+}
+
+.logo__dot {
+    font-size: em(24px);
+    line-height: 1;
+    display: inline-block;
+    margin: 0 .01em;
+    position: relative;
+    top: .1em;
+}
+
+/*
+    variations
+*/
+.logo--compact {
+    text-align: left;
+    float: left;
+    margin: 0;
+
+    .logo__text {
+        font-size: em(16px);
+    }
+
+    .logo__dot {
+        font-size: em(12px);
+    }
+}

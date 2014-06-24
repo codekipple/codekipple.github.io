@@ -1,0 +1,27 @@
+/*  ==========================================================================
+    Base:Main
+    ========================================================================== */
+
+/*
+    1. Prevent iOS text size adjust after orientation change, without disabling
+       user zoom. - Normalize:v2.1.0
+*/
+html {
+    -webkit-text-size-adjust: 100%; /* 1 */
+    -ms-text-size-adjust: 100%; /* 1 */
+    font-size: em($fs--base, $fs--browser-default);
+    line-height: 1.4;
+    min-height: 100%;
+    color: $color--body-text;
+    font-family: $font--one;
+    text-align: center;
+}
+
+/*
+    1. Remove default margin. - Normalize:v2.1.0
+*/
+body {
+    margin: 0; /* 1 */
+    min-width: em($width--site-min);
+    background: white;
+}

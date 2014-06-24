@@ -1,0 +1,11 @@
+.constrict {
+    $padding: 10px;
+    max-width: em($width--site-max + $padding);
+    padding-left: em($padding);
+    padding-right: em($padding);
+    margin: 0 auto;
+}
+
+.home {
+    background: black;
+}

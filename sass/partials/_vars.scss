@@ -1,0 +1,66 @@
+/*
+    Vars
+    ====
+*/
+
+/*
+    Global Breakpoints
+    ------------------
+*/
+
+// Grids: Only use these breakpoints for grids
+$bp--grid-small: bp-size(400px);
+$bp--grid-medium: bp-size(550px);
+$bp--grid-large: bp-size(700px);
+
+
+/*
+    colors
+    ------
+*/
+$color--beige: #c2af75;
+
+// typography
+$color--body-text: black;
+$color--link: #65b03c;
+$color--link-hover: lighten($color--link, 30);
+
+
+/*
+    Fonts
+    -----
+*/
+$font--one: Monaco, Consolas, "Lucida Console", monospace;
+
+$fs--base: 16px;
+$fs--browser-default: 16px;
+$fs--mega: 45px;
+$fs--alpha: 32px;
+$fs--beta: 26px;
+$fs--gamma: 22px;
+$fs--delta: 20px;
+$fs--epsilon: 18px;
+$fs--zeta: 17px;
+$fs--small: 16px;
+
+
+/*
+    Z-indexes
+    ---------
+*/
+
+
+/*
+    Widths
+    ------
+*/
+$width--site-min: 300px;
+$width--site-max: 800px;
+
+
+/*
+    Spacing
+    -----------
+*/
+$base-spacing-unit: 40px;
+$base-spacing-unit--half: ($base-spacing-unit / 2);

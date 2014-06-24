@@ -1,0 +1,20 @@
+/*  ==========================================================================
+    Base:Quotes
+    ========================================================================== */
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: em($base-spacing-unit--half);
+
+    p {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    cite {
+        font-style: normal;
+        display: block;
+    }
+}
