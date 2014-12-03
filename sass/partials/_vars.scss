@@ -19,10 +19,11 @@ $bp--grid-large: bp-size(700px);
     ------
 */
 $color--beige: #c2af75;
+$color--green: #65b03c;
 
 // typography
 $color--body-text: black;
-$color--link: #65b03c;
+$color--link: $color--green;
 $color--link-hover: lighten($color--link, 30);
 
 
