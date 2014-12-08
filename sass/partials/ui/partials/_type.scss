@@ -1,7 +1,9 @@
 .section-title--h1 {
     margin-top: em(30px, $fs--beta);
     margin-bottom: em(30px, $fs--beta);
-    padding: 5px 0;
+    margin-left: - em(10px, $fs--beta);
+    margin-right: - em(10px, $fs--beta);
+    padding: em(5px, $fs--beta) em(10px, $fs--beta);
     background: black;
     color: $color--beige;
     color: black;
