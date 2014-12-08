@@ -176,10 +176,10 @@ h2 {
   font-size: 1.625em; }
 
 h3 {
-  font-size: 1.375em; }
+  font-size: 1.25em; }
 
 h4 {
-  font-size: 1.25em; }
+  font-size: 1.1875em; }
 
 h5 {
   font-size: 1.125em; }
@@ -779,10 +779,38 @@ code, kbd, pre, samp {
 .aspect-ratio iframe, .aspect-ratio embed, .aspect-ratio object {
   height: 100%; }
 
-.page-head {
-  background: #000;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em; }
+.constrict {
+  max-width: 810px;
+  max-width: 50.625rem;
+  padding-left: 10px;
+  padding-left: 0.625rem;
+  padding-right: 10px;
+  padding-right: 0.625rem;
+  margin: 0 auto;
+  display: block; }
+
+.home {
+  background: black; }
+
+.section-title--h1 {
+  margin-top: 1.1538461538em;
+  margin-bottom: 1.1538461538em;
+  padding: 5px 0;
+  background: black;
+  color: #c2af75;
+  color: black;
+  background: #e1d8bc; }
+
+.section-title--h2 {
+  margin-bottom: 0.75em;
+  display: inline-block; }
+  .section-title--h2:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #a6a6a6;
+    margin-top: 0.25em; }
 
 .logo {
   max-width: 30em;
@@ -815,14 +843,21 @@ code, kbd, pre, samp {
 .main-nav a {
   padding: 0.3em; }
 
+.page-head {
+  background: #000;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em; }
+
 .timeline {
   border-top: 1px solid #000;
-  margin-bottom: 2.5em; }
+  margin-bottom: 2.5em;
+  padding: 0; }
 
 .timeline-event {
   position: relative;
-  padding-left: 20%;
-  border-bottom: 2px solid #c2af75; }
+  border-bottom: 2px solid #c2af75;
+  padding-left: 1.25em;
+  padding-left: 20%; }
 
 .timeline-event__wrap {
   border-left: 2px solid #c2af75;
@@ -830,9 +865,9 @@ code, kbd, pre, samp {
 
 .timeline-event__title {
   position: relative;
-  font-size: 1.375em;
-  left: -1.3636363636em;
-  padding-left: 1.3636363636em; }
+  font-size: 1.25em;
+  left: -1.5em;
+  padding-left: 1.5em; }
   .timeline-event__title:after {
     content: '';
     display: block;
@@ -846,20 +881,19 @@ code, kbd, pre, samp {
     left: -13px; }
 
 .timeline-event__date {
-  position: absolute;
-  top: 1.25em;
-  left: 0;
+  font-size: 0.875em;
+  margin-bottom: 0.7142857143em;
   word-wrap: break-word;
-  width: 20%; }
-
-.constrict {
-  max-width: 50.625em;
-  padding-left: 0.625em;
-  padding-right: 0.625em;
-  margin: 0 auto; }
-
-.home {
-  background: black; }
+  border-bottom: 1px dashed #000;
+  display: inline-block;
+  position: absolute;
+  top: 1.4285714286em;
+  left: 0;
+  width: 20%;
+  padding: 0 0.3571428571em;
+  border: none; }
+  .timeline-event__date span {
+    display: block; }
 
 /*  ==========================================================================
     Generic:Widths
@@ -1499,10 +1533,10 @@ code, kbd, pre, samp {
   font-size: 1.625em; }
 
 .gamma {
-  font-size: 1.375em; }
+  font-size: 1.25em; }
 
 .delta {
-  font-size: 1.25em; }
+  font-size: 1.1875em; }
 
 .epsilon {
   font-size: 1.125em; }

@@ -1,9 +1,10 @@
 .constrict {
     $padding: 10px;
-    max-width: em($width--site-max + $padding);
-    padding-left: em($padding);
-    padding-right: em($padding);
+    @include x-rem(max-width, $width--site-max + $padding);
+    @include x-rem(padding-left, $padding);
+    @include x-rem(padding-right, $padding);
     margin: 0 auto;
+    display: block;
 }
 
 .home {
