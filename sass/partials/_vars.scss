@@ -3,16 +3,6 @@
     ====
 */
 
-/*
-    Global Breakpoints
-    ------------------
-*/
-
-// Grids: Only use these breakpoints for grids
-$bp--grid-small: bp-size(400px);
-$bp--grid-medium: bp-size(550px);
-$bp--grid-large: bp-size(700px);
-
 
 /*
     colors
@@ -31,9 +21,12 @@ $color--link-hover: lighten($color--link, 30);
     Fonts
     -----
 */
+
+// families
 $font--one: Monaco, Consolas, "Lucida Console", monospace;
 $font--two: Georgia, Times, "Times New Roman", serif;
 
+// sizes
 $fs--base: 16px;
 $fs--browser-default: 16px;
 $fs--mega: 45px;
@@ -49,7 +42,14 @@ $fs--small: 16px;
 /*
     Z-indexes
     ---------
+    Keep track of z-index by assigning your elements z-index to
+    one of these defined levels.
 */
+$z-level--1: 10;
+$z-level--2: 20;
+$z-level--3: 30;
+$z-level--4: 40;
+$z-level--5: 50;
 
 
 /*
@@ -64,5 +64,5 @@ $width--site-max: 800px;
     Spacing
     -----------
 */
-$base-spacing-unit: 40px;
-$base-spacing-unit--half: ($base-spacing-unit / 2);
+$su--block: 40px;
+$su--block--half: ($su--block / 2);

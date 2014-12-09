@@ -120,14 +120,14 @@
 
 @include grid-setup();
 
-@include respond($bp--grid-small) {
-    @include grid-setup("small-");
-}
+// @include respond($bp--grid-small) {
+//     @include grid-setup("small-");
+// }
 
-@include respond($bp--grid-medium) {
-    @include grid-setup("medium-");
-}
+// @include respond($bp--grid-medium) {
+//     @include grid-setup("medium-");
+// }
 
-@include respond($bp--grid-large) {
-    @include grid-setup("large-");
-}
+// @include respond($bp--grid-large) {
+//     @include grid-setup("large-");
+// }

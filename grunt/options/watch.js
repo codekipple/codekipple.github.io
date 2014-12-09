@@ -8,6 +8,6 @@ module.exports = {
     },
     sass: {
         files: [files.sass],
-        tasks: ['sass', 'autoprefixer']
+        tasks: ['sass', 'autoprefixer', 'cssmin']
     }
 };
