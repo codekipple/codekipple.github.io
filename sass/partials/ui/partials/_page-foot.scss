@@ -1,0 +1,9 @@
+.page-foot {
+    padding-top: em($su--block--half);
+    padding-bottom: em($su--block--half);
+	color: $color--beige;
+	text-align: left;
+    font-size: em(16px);
+    margin-top: em(100px);	
+    border-top: 1px solid #eee;
+}
