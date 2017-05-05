@@ -1,3 +1,9 @@
+h1 {
+    line-height: 1;
+    span {
+        font-size: em(10px);
+    }
+}
 .section-title--h1 {
     margin-top: em(30px, $fs--beta);
     margin-bottom: em(30px, $fs--beta);
@@ -12,5 +18,4 @@
 
 .section-title--h2 {
     margin-bottom: em(15px, $fs--gamma);
-    display: inline-block;
 }
