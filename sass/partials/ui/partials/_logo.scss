@@ -1,10 +1,11 @@
 .logo {
     max-width: em(480px);
-    color: $color--beige;
     text-align: left;
     float: left;
 
-    .logo__text {
-        font-size: em(16px);
-    }
+}
+.logo__text {
+    font-size: em(16px);
+    text-decoration: none;
+    color: $color--beige;
 }
